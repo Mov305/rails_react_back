@@ -22,7 +22,7 @@
 
 # react-rails <a name="react-rails"></a>
 
-> This is a simple project to practice how to use React.js with Ruby on Rails.
+> This is just an Api for a react app here is the link of the react app => [react-rails](https://github.com/Mov305/rails_react_front)
 
 
 ## 🛠 Built With <a name="built-with"></a>
