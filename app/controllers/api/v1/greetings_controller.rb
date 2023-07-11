@@ -1,9 +1,9 @@
 class Api::V1::GreetingsController < ApplicationController
-  before_action :set_greeting, :set_default_format, only: %i[ show update destroy ]
+  before_action :set_greeting, :set_default_format, only: %i[show update destroy]
 
   # GET /greetings
   def index
-    random_greeting = Greeting.order("RANDOM()").first
+    random_greeting = Greeting.order('RANDOM()').first
     render json: random_greeting
   end
 
